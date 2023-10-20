@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: cosign
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/rhtas-cli-1-0-beta/cosign@sha256:1a34ac0ee18d144b18a3f18333216e87709018acb6fea42892b5e1a17e2c8af7
+        name: container-image
+        resources: {}
+status: {}
