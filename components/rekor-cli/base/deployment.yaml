@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: rekor-cli
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtas-tenant/rhtas-cli-1-0-beta/rekor-cli@sha256:27d4911722ac8a902f81cd9d1a8d7cb143fc8c6679fb8cf275448eedaee71691
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/rhtas-cli-1-0-beta/rekor-cli@sha256:7da0656cc35c0fce3e62f80d8a1e72eac78a4caf6e636b27e598b98b77d8f9b3
         imagePullPolicy: Always
         name: container-image
         ports:
