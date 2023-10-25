@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: gitsign
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtas-tenant/rhtas-cli-1-0-beta/gitsign@sha256:f3c3cfd2ffe6fb0b319ebbf6121573eb77633e895a96d6a457bb5d1011d56bf2
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/rhtas-cli-1-0-beta/gitsign@sha256:4efe08ce4f25d7108367200f2c949a0b2c1df6fa78003937016f1217b167e953
         imagePullPolicy: Always
         name: container-image
         ports:
